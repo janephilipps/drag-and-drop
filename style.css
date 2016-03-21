@@ -4,6 +4,7 @@
     color: #f26822;
     background-color: white;
     font: 1em Futura;
+    cursor: pointer;
 }
 
 #reset:hover,
