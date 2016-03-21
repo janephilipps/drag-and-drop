@@ -1,16 +1,29 @@
 #reset,
 #randomize {
-    border: 2px solid black;
+    border: 2px solid #f26822;
+    color: #f26822;
     background-color: white;
     font: 1em Futura;
 }
 
+#reset:hover,
+#randomize:hover {
+    background-color: #f26822;
+    color: white;
+}
+
+.button-container {
+    padding: 20px 0;
+    text-align: center;
+}
+
 .box-container {
     display: block;
+    text-align: center;
 }
 
 .box {
-    border: 3px solid black;
+    border: 3px solid #f26822;
     display: inline-block;
     width: 500px;
     height: 500px;
@@ -21,7 +34,7 @@
 }
 
 .draggable-box {
-    border: 3px solid black;
+    border: 3px solid white;
     margin: 5px;
     background-color: #f26822;
     color: white;
@@ -37,4 +50,5 @@
 .opposite {
     color: #f26822;
     background-color: white;
+    border-color: #f26822;
 }
