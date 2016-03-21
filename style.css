@@ -1,4 +1,5 @@
-#reset {
+#reset,
+#randomize {
     border: 2px solid black;
     background-color: white;
     font: 1em Futura;
@@ -22,7 +23,7 @@
 .draggable-box {
     border: 3px solid black;
     margin: 5px;
-    background-color: orange;
+    background-color: #f26822;
     color: white;
     font-family: Futura, sans-serif;
     font-size: 5em;
@@ -33,10 +34,7 @@
     line-height: 150px;
 }
 
-.active {
-    background-color: blue;
-}
-
-.drop-hover {
-    background-color: rgba(0,0,255,.3);
+.opposite {
+    color: #f26822;
+    background-color: white;
 }
