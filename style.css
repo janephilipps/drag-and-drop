@@ -16,10 +16,6 @@
     height: 500px;
 }
 
-.row {
-    display: block;
-}
-
 .draggable-box {
     border: 3px solid black;
     margin: 5px;
@@ -33,11 +29,13 @@
     text-align: center;
     line-height: 150px;
     cursor: pointer;
+    top: -8px;
+    left: -8px;
 }
 
 .droppable-box {
     float: left;
-    border: 3px solid green;
+    border: 3px solid white;
     z-index: 0;
     width: 150px;
     height: 150px;
