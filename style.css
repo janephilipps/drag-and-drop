@@ -32,6 +32,16 @@
     height: 150px;
     text-align: center;
     line-height: 150px;
+    cursor: pointer;
+}
+
+.droppable-box {
+    float: left;
+    border: 3px solid green;
+    z-index: 0;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
 }
 
 .opposite {
